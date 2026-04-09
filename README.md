@@ -18,12 +18,12 @@ This project is an Arduino-based smart locker system designed for a delivery rob
 - Push Button
 - NeoPixel LED Strip
 
-## Pin Configuration
-- Servo: Pin 11  
-- Button: Pin 10  
-- NeoPixel: Pin 12  
-- Keypad Rows: 9, 8, 7, 6  
-- Keypad Columns: 5, 4, 3, 2  
+## Libraries
+- Wire (built-in)
+- LiquidCrystal_I2C
+- Keypad
+- Servo (built-in)
+- Adafruit NeoPixel
 
 ## How It Works
 1. Press button → generates order code  
